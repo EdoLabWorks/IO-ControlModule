@@ -10,7 +10,7 @@ Our focus here is to show how we can control in simulation - devices, instrument
 
 Also, as an excercise to provide us a simple way to send real-time notifications to our web control interface.
 
-Although we are just using simple websocket messaging here, the same concept can be use to provide real-time control instead of just notification for our M2M applications.
+Although we are just using simple websocket messaging here, the same concept can be used to provide real-time control instead of just notification to our M2M applications.
 
 This application should be used together with the NodeJS Web Control interface.
 
