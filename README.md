@@ -9,7 +9,8 @@ Using C# and WPF, you have the full .NET framework at your disposal for your rem
 Our focus here is to show how we can control in simulation - devices, instruments or machines using simple LED indicators to give us a first hand feel and insight during our initial application development process.
 
 Also, as an excercise to provide us a simple way to send real-time notifications to our web control interface.
-Although we are using simple websocket messaging, it gives us ideas of other ways on how we can use real-time automated control for M2M applications.
+
+Although we are just using simple websocket messaging here, the same concept can be use to provide real-time control instead of just notification for our M2M applications.
 
 This application should be used together with the NodeJS Web Control interface.
 
