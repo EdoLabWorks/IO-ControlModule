@@ -6,7 +6,7 @@ A lightweight device monitor and control simulator for M2M applications.
 
 Using C# and WPF, you have the full .NET framework at your disposal for your remote monitoring and control applications.
 
-Our focus here is how we can control in simulation - devices, instruments or machines using simple LED indicators to give us a first hand feel and insight during our initial application development process.
+Our focus here is to show how we can control in simulation - devices, instruments or machines using simple LED indicators to give us a first hand feel and insight during our initial application development process.
 
 Also, as an excercise to provide you an idea on how we can send real-time notifications to our web control interface.
 Although we are using simple websocket messaging, it gives us ideas of other ways on how we can use real-time automated control for M2M applications.
