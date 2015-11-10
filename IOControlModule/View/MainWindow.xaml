@@ -1,0 +1,84 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="ControlModule.MainWindow"
+        Title="Ed Alegrid - I/O Control Module Ver 3.0 2015  All Rights Reserved" Height="355" Width="570" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Unloaded="Window_Unloaded" Icon="/IOControlModule;component/test-icon.ico" Visibility="Visible" >
+    <Window.Resources>
+        <SolidColorBrush x:Key="Brush2" Color="#FFC6D2DF"/>
+        <SolidColorBrush x:Key="Brush3" Color="#FFE4DAE4"/>
+    </Window.Resources>
+    <Grid d:IsLocked="True">
+        <Menu Height="24" VerticalAlignment="Top" Background="{x:Null}" d:IsLocked="True">
+            <MenuItem Header="Settings" Click="Settings_Menu_Click" d:IsLocked="True">
+                <MenuItem Header="Exit" HorizontalAlignment="Left" Width="auto" d:IsLocked="True" />
+            </MenuItem>
+            <MenuItem Header="Help" Click="Help_Menu_Click" d:IsLocked="True" >
+                <MenuItem Header="About IOControlModuleApp" HorizontalAlignment="Left" Width="auto" d:IsLocked="True" />
+            </MenuItem>
+        </Menu>
+        <TabControl Margin="0,21,0,0" d:IsLocked="True">
+            <TabItem Header="Main Actuator Panel" Background="#FFB3A9C5" Foreground="Black" FontSize="11" d:IsLocked="True">
+                <Grid Background="#FF9593B6" d:IsLocked="True">
+                    <Border BorderBrush="Black" BorderThickness="0.25" Opacity="0.8" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" CornerRadius="3" d:IsLocked="True"/>
+                    <Grid HorizontalAlignment="Left" Height="175" Margin="10,68,0,0" VerticalAlignment="Top" Width="84" Background="#FFE4DAE4" d:IsLocked="True">
+                        <TextBox x:Name="inTxt1" HorizontalAlignment="Left" Height="25" Margin="10,19,0,0" TextWrapping="Wrap" Text="Actuator1" VerticalAlignment="Top" Width="64" TextAlignment="Center" d:IsLocked="True"/>
+                        <Button x:Name="btn1" Content="" HorizontalAlignment="Left" Margin="24,65,0,0" VerticalAlignment="Top" Width="37" Height="23" Click="btn1_Click" d:IsLocked="True"/>
+                        <Label Content="1" HorizontalAlignment="Left" Margin="35,97,0,0" VerticalAlignment="Top" Width="17" d:IsLocked="True"/>
+                        <Ellipse x:Name="led1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="18" Margin="34,128,0,0" Stroke="Black" VerticalAlignment="Top" Width="18" d:IsLocked="True" />
+                    </Grid>
+                    <Grid HorizontalAlignment="Left" Height="175" Margin="99,68,0,0" VerticalAlignment="Top" Width="84" Background="#FFE4DAE4" d:IsLocked="True" >
+                        <TextBox x:Name="inTxt2" HorizontalAlignment="Left" Height="25" Margin="10,19,0,0" TextWrapping="Wrap" Text="Actuator2" VerticalAlignment="Top" Width="64" TextAlignment="Center" d:IsLocked="True"/>
+                        <Button x:Name="btn2" Content="" HorizontalAlignment="Left" Margin="24,65,0,0" VerticalAlignment="Top" Width="37" Height="23" Click="btn2_Click" d:IsLocked="True"/>
+                        <Label Content="2" HorizontalAlignment="Left" Margin="35,97,0,0" VerticalAlignment="Top" Width="17" Grid.RowSpan="2" d:IsLocked="True"/>
+                        <Ellipse x:Name="led2" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="18" Margin="34,128,0,0" Stroke="Black" VerticalAlignment="Top" Width="18" d:IsLocked="True" />
+                    </Grid>
+                    <Grid HorizontalAlignment="Left" Height="175" Margin="188,68,0,0" VerticalAlignment="Top" Width="84" Background="#FFE4DAE4" d:IsLocked="True">
+                        <TextBox x:Name="inTxt3" HorizontalAlignment="Left" Height="25" Margin="10,19,0,0" TextWrapping="Wrap" Text="Actuator3" VerticalAlignment="Top" Width="64" TextAlignment="Center" d:IsLocked="True"/>
+                        <Button x:Name="btn3" Content="" HorizontalAlignment="Left" Margin="24,65,0,0" VerticalAlignment="Top" Width="37" Height="23" Click="btn3_Click" d:IsLocked="True"/>
+                        <Label Content="3" HorizontalAlignment="Left" Margin="35,97,0,0" VerticalAlignment="Top" Width="17" d:IsLocked="True"/>
+                        <Ellipse x:Name="led3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="18" Margin="34,128,0,0" Stroke="Black" VerticalAlignment="Top" Width="18" d:IsLocked="True" />
+                    </Grid>
+                    <Grid HorizontalAlignment="Left" Height="175" Margin="277,68,0,0" VerticalAlignment="Top" Width="84" Background="#FFE4DAE4" d:IsLocked="True">
+                        <TextBox x:Name="inTxt4" HorizontalAlignment="Left" Height="25" Margin="10,19,0,0" TextWrapping="Wrap" Text="Actuator4" VerticalAlignment="Top" Width="64" TextAlignment="Center" d:IsLocked="True"/>
+                        <Button x:Name="btn4" Content="" HorizontalAlignment="Left" Margin="24,65,0,0" VerticalAlignment="Top" Width="37" Height="23" Click="btn4_Click" d:IsLocked="True"/>
+                        <Label Content="4" HorizontalAlignment="Left" Margin="35,97,0,0" VerticalAlignment="Top" Width="17" d:IsLocked="True"/>
+                        <Ellipse x:Name="led4" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="18" Margin="34,128,0,0" Stroke="Black" VerticalAlignment="Top" Width="18" d:IsLocked="True" />
+                    </Grid>
+                    <Grid HorizontalAlignment="Left" Height="175" Margin="366,68,0,0" VerticalAlignment="Top" Width="84" Background="#FFE4DAE4" d:IsLocked="True" >
+                        <TextBox x:Name="inTxt5" HorizontalAlignment="Left" Height="25" Margin="10,19,0,0" TextWrapping="Wrap" Text="Actuator5" VerticalAlignment="Top" Width="64" TextAlignment="Center" d:IsLocked="True"/>
+                        <Button x:Name="btn5" Content="" HorizontalAlignment="Left" Margin="24,65,0,0" VerticalAlignment="Top" Width="37" Height="23" Click="btn5_Click" d:IsLocked="True"/>
+                        <Label Content="5" HorizontalAlignment="Left" Margin="35,97,0,0" VerticalAlignment="Top" Width="17" d:IsLocked="True"/>
+                        <Ellipse x:Name="led5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="18" Margin="34,128,0,0" Stroke="Black" VerticalAlignment="Top" Width="18" d:IsLocked="True" />
+                    </Grid>
+                    <Grid HorizontalAlignment="Left" Height="175" Margin="455,68,0,0" VerticalAlignment="Top" Width="84" Background="{DynamicResource Brush3}" d:IsLocked="True">
+                        <TextBox x:Name="inTxt6" HorizontalAlignment="Left" Height="25" Margin="10,19,0,0" TextWrapping="Wrap" Text="Actuator6" VerticalAlignment="Top" Width="64" TextAlignment="Center" d:IsLocked="True"/>
+                        <Button x:Name="btn6" Content="" HorizontalAlignment="Left" Margin="24,65,0,0" VerticalAlignment="Top" Width="37" Height="23" Click="btn6_Click" d:IsLocked="True"/>
+                        <Label  Content="6" HorizontalAlignment="Left" Margin="35,97,0,0" VerticalAlignment="Top" Width="17" d:IsLocked="True"/>
+                        <Ellipse x:Name="led6" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="18" Margin="34,128,0,0" Stroke="Black" VerticalAlignment="Top" Width="18" d:IsLocked="True" />
+                    </Grid>
+                    <Ellipse x:Name="ledServer" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="13" Margin="26,26,0,0" Stroke="Black" VerticalAlignment="Top" Width="13" Opacity="0.8" d:IsLocked="True"/>
+                    <Ellipse x:Name="Rxled" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="12" Margin="485,18,0,0" Stroke="Black" VerticalAlignment="Top" Width="12" Opacity="0.8" d:IsLocked="True"/>
+                    <Ellipse x:Name="Txled" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="12" Margin="485,40,0,0" Stroke="Black" VerticalAlignment="Top" Width="12" Opacity="0.8" RenderTransformOrigin="-1.897,0.554" d:IsLocked="True"/>
+                    <TextBox x:Name="inTxt7" HorizontalAlignment="Left" Height="25" Margin="125,19,0,0" TextWrapping="Wrap" Text="status" VerticalAlignment="Top" Width="64" TextAlignment="Center" Visibility="Hidden" d:IsLocked="True"/>
+                    <TextBox x:Name="inTxt8" HorizontalAlignment="Left" Height="25" Margin="125,19,0,0" TextWrapping="Wrap" Text="status" VerticalAlignment="Top" Width="64" TextAlignment="Center" Visibility="Hidden" d:IsLocked="True"/>
+                    <TextBox x:Name="inTxt9" HorizontalAlignment="Left" Height="25" Margin="125,19,0,0" TextWrapping="Wrap" Text="status" VerticalAlignment="Top" Width="64" TextAlignment="Center" Visibility="Hidden" d:IsLocked="True"/>
+                    <Label Content="I/O MODULE" HorizontalAlignment="Left" VerticalAlignment="Top" Width="auto" FontSize="14" FontWeight="Bold" Opacity="0.6" Margin="215,18,0,0" d:IsLocked="True"/>
+                    <Label Content="Server Status" HorizontalAlignment="Left" VerticalAlignment="Top" Width="71" FontSize="10" Opacity="0.8" Margin="45,20,0,0" d:IsLocked="True"/>
+                    <Label Content="Rx" HorizontalAlignment="Left" VerticalAlignment="Top" Width="22" FontSize="10" Opacity="0.8" Margin="500,12,0,0" d:IsLocked="True"/>
+                    <Label Content="Tx" HorizontalAlignment="Left" VerticalAlignment="Top" Width="27" FontSize="10" Opacity="0.8" Margin="500,34,0,0" d:IsLocked="True"/>
+                    <StatusBar Height="20" Margin="0,0,0,0" VerticalAlignment="Bottom" d:IsLocked="True">
+                        <StatusBarItem x:Name="statBar" Content="" Height="22" VerticalAlignment="Bottom" d:IsLocked="True" />
+                    </StatusBar>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Debug Panel" FontSize="10" d:IsLocked="True" >
+                <Grid Background="{DynamicResource Brush3}" d:IsLocked="True">
+                    <TextBox x:Name="display" TextWrapping="Wrap" Text="" Margin="0,25,0,35" TextChanged="display_TextChanged_1" d:IsLocked="True" />
+                    <Button x:Name="serverButton" Content="Start Server" HorizontalAlignment="Left" Margin="20,0,0,10" VerticalAlignment="Bottom" Width="125" Click="serverButton_Click" Height="auto" IsEnabled="False" d:IsLocked="True"/>
+                    <Button x:Name="clientButton" Content="Manual ON/OFF check" HorizontalAlignment="Right" Margin="0,0,20,10" VerticalAlignment="Bottom" Width="125" Click="clientButton_Click" Height="auto" RenderTransformOrigin="0.502,0.5" IsEnabled="False" d:IsLocked="True" />
+                    <Label Content="Debug Output Display" HorizontalAlignment="Left" VerticalAlignment="Top" Width="131" Height="26" d:IsLocked="True"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

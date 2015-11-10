@@ -1,0 +1,10 @@
+﻿<Application x:Class="ControlModule.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="View/MainWindow.xaml">
+    <Application.Resources>
+
+        <SolidColorBrush x:Key="Brush1" Color="#FF6598A8"/>
+
+    </Application.Resources>
+</Application>

@@ -1,0 +1,11 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="ControlModule.Lib.HelpAboutWindow"
+         Title="" Height="300" Width="300" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" >
+    <Grid d:IsLocked="True">
+        <TextBox x:Name="aboutBox" TextWrapping="Wrap" Text="" Margin="0,0,0,55" Foreground="#FF303E43" d:IsLocked="True" />
+        <Button Content="Close" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="80" Margin="110,0,0,18" Click="Button_Click_1" d:IsLocked="True"/>
+    </Grid>
+</Window>
+
