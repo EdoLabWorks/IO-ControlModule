@@ -18,7 +18,7 @@ For now, just open it in debug mode in Visual Studio and run the NodeJS Web Cont
 [](https://github.com/EdoLabWorks/ximgs/blob/master/canvas.png)
 [](https://github.com/EdoLabWorks/xedo-imgs/blob/master/OverviewIOModule.png)
 
-This project is based on WPF using C#.
+
 
 
 
