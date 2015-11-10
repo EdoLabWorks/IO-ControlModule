@@ -12,8 +12,6 @@ Also as a simple demonstration in reverse process, how we can send real-time not
 
 If you press the toggle buttons on each device front-panel section, you can send an ON/OFF message and change the button color of the web control interface correspondingly. 
 
-Although we are just using simple websocket messaging here, the same concept can be used to provide real-time control instead of just notification to our M2M applications.
-
 This application should be used together with the NodeJS Web Control interface.
 
 For now, just open it in debug mode in Visual Studio and run the NodeJS Web Control application.
