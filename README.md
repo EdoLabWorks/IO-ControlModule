@@ -12,9 +12,8 @@ Also, as an excercise to provide you an idea on how we can send real-time notifi
 Although we are using simple websocket messaging, it gives us ideas of other ways on how we can use real-time automated control for M2M applications.
 
 This application should be used together with the NodeJS Web Control interface.
-For now, just open it in debug mode in Visual Studio and run the NodeJS Web Control application.
 
-Later on you can add external libraries/drivers to control real devices such as wireless I/O modules or machine/instruments for any applications you may be thinking of or planning to implement.
+For now, just open it in debug mode in Visual Studio and run the NodeJS Web Control application.
 
 [](https://github.com/EdoLabWorks/ximgs/blob/master/canvas.png)
 [](https://github.com/EdoLabWorks/xedo-imgs/blob/master/OverviewIOModule.png)
