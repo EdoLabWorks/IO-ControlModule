@@ -14,7 +14,7 @@ If you press the toggle buttons on each device front-panel section, you can send
 This application should be used together with the NodeJS web control interface.
 
 ##Installation
-For now, just open it in Visual Studio debug mode and run NodeJS web control application as separate process.
+To give it a quick try, just open it in Visual Studio and run NodeJS web control application as a separate process.
 
 [](https://github.com/EdoLabWorks/ximgs/blob/master/canvas.png)
 [](https://github.com/EdoLabWorks/xedo-imgs/blob/master/OverviewIOModule.png)
