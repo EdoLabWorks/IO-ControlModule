@@ -1,7 +1,6 @@
 # IO-ControlModule
 A lightweight device monitor and control simulator for M2M applications.
 
-[](https://github.com/EdoLabWorks/xedo-imgs/blob/master/BlueIOModule.png)
 ![](https://github.com/EdoLabWorks/ximgs/blob/master/newIOmodule.png)
 
 Using C# and WPF, you have the full .NET framework at your disposal for your remote monitoring and control applications.
@@ -12,10 +11,10 @@ Also as a simple demonstration in reverse process, how we can send real-time not
 
 If you press the toggle buttons on each device front-panel section, you can send an ON/OFF message and change the button color of the web control interface correspondingly. 
 
-This application should be used together with the NodeJS Web Control interface.
+This application should be used together with the NodeJS web control interface.
 
 ##Installation
-For now, just open it in debug mode in Visual Studio and run the NodeJS Web Control application.
+For now, just open it in Visual Studio debug mode and run NodeJS web control application as separate process.
 
 [](https://github.com/EdoLabWorks/ximgs/blob/master/canvas.png)
 [](https://github.com/EdoLabWorks/xedo-imgs/blob/master/OverviewIOModule.png)
