@@ -7,7 +7,7 @@ Using C# and WPF, you have the full .NET framework at your disposal for your rem
 
 Our focus here is to show from the web control interface how we can control in simulation - devices, instruments or machines using simple LED indicators to give us a first hand feel and insight during our initial application development process.
 
-Also, if you press the toggle buttons on each device front-panel section, you can send an ON/OFF message to the web control interface as well as change the button color correspondingly. 
+Also, if you press the toggle buttons on each device front-panel section, you can send an ON/OFF messages to the web control interface as well as change the button's color correspondingly. 
 
 This application should be used together with the NodeJS web control interface.
 
