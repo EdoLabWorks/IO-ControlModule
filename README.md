@@ -14,12 +14,14 @@ If you press the toggle buttons on each device front-panel section, you can send
 
 This application should be used together with the NodeJS Web Control interface.
 
+##Installation
 For now, just open it in debug mode in Visual Studio and run the NodeJS Web Control application.
 
 [](https://github.com/EdoLabWorks/ximgs/blob/master/canvas.png)
 [](https://github.com/EdoLabWorks/xedo-imgs/blob/master/OverviewIOModule.png)
 
-
+##License
+MIT
 
 
 
