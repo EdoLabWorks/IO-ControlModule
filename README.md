@@ -11,7 +11,7 @@ Also, if you press the toggle buttons on each device front-panel section, you ca
 
 This application should be used together with the NodeJS web control interface.
 
-##Installation
+##Usage
 To give it a quick try, just open it in Visual Studio and run NodeJS web control application as a separate process.
 
 [](https://github.com/EdoLabWorks/ximgs/blob/master/canvas.png)
