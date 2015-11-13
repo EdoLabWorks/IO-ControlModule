@@ -14,7 +14,8 @@ This application should be used together with the NodeJS web control interface.
 ##Usage
 To give it a quick try, just open it in Visual Studio from your development PC and run NodeJS web control application as a separate process.
 
-[](https://github.com/EdoLabWorks/ximgs/blob/master/canvas.png)
+##Quick Overview of Typical Setup
+![](https://github.com/EdoLabWorks/ximgs/blob/master/canvas.png)
 [](https://github.com/EdoLabWorks/xedo-imgs/blob/master/OverviewIOModule.png)
 
 ##License
