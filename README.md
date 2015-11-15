@@ -9,7 +9,7 @@ Our focus here is to show from the web control interface how we can control in s
 
 Also, if you press the toggle button on each device front-panel section, you can send ON/OFF messages to the web control interface as well as change the button's color correspondingly. 
 
-This application should be used together with the NodeJS web control interface.
+This application should be used together with the [NodeJS web control interface](https://github.com/EdoLabWorks/NodeJS-Web-Control-Project).
 
 ##Usage
 To give it a quick try, just open it in Visual Studio from your development PC and run NodeJS web control application as a separate process.
