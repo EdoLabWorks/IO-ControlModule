@@ -1,4 +1,4 @@
-# IO-ControlModule
+## IO-ControlModule
 A lightweight device monitor and control simulator for M2M applications.
 
 ![](https://github.com/EdoLabWorks/ximgs/blob/master/newIOmodule.png)
@@ -11,13 +11,13 @@ Also, if you press the toggle button on each device front-panel section, you can
 
 This application should be used together with the [NodeJS web control interface](https://github.com/EdoLabWorks/NodeJS-Web-Control-Project).
 
-##Usage
+### Usage
 To give it a quick try, just open it in Visual Studio from your development PC and run NodeJS web control application as a separate process.
 
 [](https://github.com/EdoLabWorks/ximgs/blob/master/canvas.png)
 [](https://github.com/EdoLabWorks/xedo-imgs/blob/master/OverviewIOModule.png)
 
-##License
+### License
 MIT
 
 
