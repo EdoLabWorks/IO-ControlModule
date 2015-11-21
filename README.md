@@ -7,7 +7,7 @@ Using C# and WPF, you have the full .NET framework at your disposal for your rem
 
 Our focus here is to show from the web control interface how we can control in simulation - devices, instruments or machines using simple LED indicators to give us a first hand feel and insight during our initial application development process.
 
-Later on, you can easily integrate actual I/O sensors/actuators or instruments/machine interfacing with its device driver in a PC-Based automated solutions.  
+Later on, you can easily integrate actual I/O sensors/actuators or instruments/machine interfacing with its device driver in a PC-Based automation solutions.  
 
 Also, if you press the toggle button on each device front-panel section, you can send ON/OFF messages to the web control interface as well as change the button's color correspondingly. 
 
