@@ -40,7 +40,6 @@ namespace ControlModule.Lib
             using (TcpClient c = await listener.AcceptTcpClientAsync())
             using (NetworkStream networkstream = c.GetStream())
             {
-                //int ControlCode = int.Parse(Encoding.UTF8.GetString(await ReadMessage(networkstream)));
                 string ControlCode = Encoding.UTF8.GetString(await ReadMessage(networkstream));
                 RxLedStatus();
                 DeviceControl.DeviceOperation(ControlCode);
@@ -49,14 +48,14 @@ namespace ControlModule.Lib
         }
 
         // read memory buffer helper
-		async static Task<byte[]>ReadMessage(NetworkStream s)
-		{
-			MemoryStream ms = new System.IO.MemoryStream();
-			byte[] buffer = new byte[0x1000];
-			do { ms.Write(buffer, 0, await s.ReadAsync(buffer, 0, buffer.Length)); }
-			while (s.DataAvailable);
-			return ms.ToArray();
-		}
+	async static Task<byte[]>ReadMessage(NetworkStream s)
+	{
+		MemoryStream ms = new System.IO.MemoryStream();
+		byte[] buffer = new byte[0x1000];
+		do { ms.Write(buffer, 0, await s.ReadAsync(buffer, 0, buffer.Length)); }
+		while (s.DataAvailable);
+		return ms.ToArray();
+	}
 
         // receive data indicator  
         private async static void RxLedStatus()
