@@ -18,7 +18,8 @@ namespace ControlModule.Lib
                 /*************** 
                 -o- Device 1 -o- 
                 ****************/
-                case "ON1": x = 1;
+                case "ON1":
+                x = 1;
                 Device[x].ON();
                 DeviceEvent.ON1Event(); 
                 break;
