@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace ControlModule.Lib
 {
-    //you can create your own Led on/off pattern or use the pattern below
+    //you can create your own or use the pattern below
     class BlinkLed
     {
         public static ISwitch[] Device;
