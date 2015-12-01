@@ -71,13 +71,13 @@ namespace ControlModule
                }
             }
             
-            // disable for now
+            // disabled for now
             private void serverButton_Click(object sender, RoutedEventArgs e)
             {
                 //serverButton.IsEnabled = false;
                 //await ControlModule.Lib.ModuleTcpServer.RunServerAsync();
             }
-            // disable for now
+            // disabled for now
             private void clientButton_Click(object sender, RoutedEventArgs e)
             {
                 //serverButton.IsEnabled = true;
@@ -86,9 +86,6 @@ namespace ControlModule
 
             private async void btn1_Click(object sender, RoutedEventArgs e)
             {
-                //send a message to each module on the web control interface
-                //string m = inTxt1.Text;
-                //m = "";
                 if (Device[1].State == false) { Device[1].ON(); 
                 await ModuleTcpClient.RunClientAsync("Device1 ON");
                 }
@@ -121,7 +118,7 @@ namespace ControlModule
             {
                 if (Device[4].State == false) { Device[4].ON();
                 await ModuleTcpClient.RunClientAsync("Device4 ON");
-            }
+                }
                 else { Device[4].OFF();
                 await ModuleTcpClient.RunClientAsync("Device4 OFF");
                 }
@@ -159,7 +156,7 @@ namespace ControlModule
 
             void Exit()
             {
-                //remove event msg as listener
+                // remove event msg as listener
                 msg.removeDataHandler();
                 Application.Current.Shutdown();
             }
