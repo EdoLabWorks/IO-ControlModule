@@ -17,8 +17,9 @@ namespace DataSource.Lib
     public class Data
     {
         public static bool initFlag { get; set; }
-
-        public static Data Source = new Data(); //Send a warning if event is not register
+        
+        //send a warning if event is not registered
+        public static Data Source = new Data(); 
 
         public event EventHandler<DataInfoEventArgs> NewInfo;
 
