@@ -1,7 +1,7 @@
 ## IO-ControlModule
 A lightweight device monitor and control simulator for M2M applications.
 
-![](https://github.com/EdoLabWorks/ximgs/blob/master/newIOmodule.png)
+[](https://github.com/EdoLabWorks/ximgs/blob/master/newIOmodule.png)
 
 Using C# and WPF, you have the full .NET framework at your disposal for your remote monitoring and control applications.
 
