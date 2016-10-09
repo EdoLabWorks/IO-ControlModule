@@ -1,5 +1,5 @@
 ## IO-ControlModule
-A lightweight device monitor and control simulator for M2M applications.
+A general lightweight application framework for I/O control and remote monitoring using TCP protocol for M2M solutions.
 
 [](https://github.com/EdoLabWorks/ximgs/blob/master/newIOmodule.png)
 
@@ -9,7 +9,9 @@ Our focus here is to show from the web control interface how we can control in s
 
 Later on, you can easily integrate actual I/O sensors/actuators or instruments/machine interfacing with its device driver in a PC-Based automation solutions.  
 
-Also, if you press the toggle button on each device front-panel section, you can send ON/OFF messages to the web control interface as well as change the button's color correspondingly. 
+Using simple toggle buttons, you can send back and forth ON/OFF control signals to a remote server.
+With its built asynchronous internal TCP server you can receive incoming control signals from any connected clients. 
+Currently, the internal TCP client/server settings are set to default "localhost" or "127.0.0.1" for inter-process communications only. 
 
 This application should be used together with the [NodeJS web control interface](https://github.com/EdoLabWorks/NodeJS-Web-Control-Project).
 
